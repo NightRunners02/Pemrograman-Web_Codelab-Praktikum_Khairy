@@ -1,4 +1,3 @@
-/* Existing CSS */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -7,15 +6,16 @@ body {
 
 nav {
   display: flex;
-  justify-content: center; /* Center all items in the nav */
+  justify-content: center; 
   align-items: center;
   background-color: #2a0a51;
   padding: 1rem;
-  position: fixed; /* Make the navigation fixed */
-  width: 100%; /* Ensure it spans the entire width */
-  top: 0; /* Position it at the top */
-  z-index: 1000; /* Ensure it is above other content */
+  position: fixed; 
+  width: 100%; 
+  top: 0; 
+  z-index: 1000; 
 }
+
 
 .btn {
   display: inline-block; /* Make it behave like a button */
@@ -26,9 +26,8 @@ nav {
   border-radius: 5px; /* Sudut yang membulat */
   transition: background-color 0.3s; /* Efek transisi saat hover */
 }
-
 .btn:hover {
-  background-color: #7600a1; /* Warna saat hover */
+  background-color: #7600a1;
 }
 
 .logo {
@@ -37,13 +36,14 @@ nav {
   margin-right: center; /* Aligns the logo to the left of the center */
 }
 
+
 nav ul {
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
-  margin-left: 20px; /* Slightly shift the menu items to the left */
 }
+
 
 nav ul li {
   margin: 0 1rem;
@@ -147,8 +147,11 @@ footer {
 
 @media (max-width: 768px) {
   nav {
-    flex-direction: column;
+    text-align: center;
+    flex-direction: column; /* Stacks logo and menu vertically */
+    justify-content: center; /* Centers all items */
   }
+
 
   nav ul {
     display: none;
@@ -187,7 +190,7 @@ footer {
 }
 
 .portfolio-grid {
-  display: flex; /* Use Flexbox for layout */
+  display: flex; 
   flex-wrap: wrap; /* Allow items to wrap into multiple rows */
   justify-content: space-between; /* Space items evenly */
   margin-top: 20px; /* Add some space above the grid */
@@ -237,5 +240,85 @@ footer {
 
 .star:hover,
 .star:hover ~ .star {
-  color: #00fffb; /* Warna bintang saat hover */
+  color: #00fffb; 
 }
+
+
+#video {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.all-episode {
+  margin-bottom: 20px;
+}
+
+.all-episode h2 {
+  font-size: 24px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.episode-item {
+  background-color: #2a0a51;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.episode-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.episode-title {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.toggle-button {
+  background-color: black;
+  color: orange;
+  border: none;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.toggle-button:hover {
+  background-color: orange;
+  color: black;
+}
+
+.video-container iframe {
+  width: 480px;
+  height: 240px;
+  border-radius: 8px;
+}
+
+.content-box {
+  background-color: #ff0000;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-box h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.content-box p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+

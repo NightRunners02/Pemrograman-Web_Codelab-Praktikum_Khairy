@@ -24,6 +24,7 @@
         <li><a href="#about" class="btn">Tentang</a></li>
         <li><a href="#work" class="btn"> Pekerjaan</a></li>
         <li><a href="#portfolio" class="btn">Portfolio</a></li>
+        <li><a href="#video" class="btn">Video</a></li>
       </ul>
     </nav>
 
@@ -33,7 +34,7 @@
         <h2>Welcome to Website Night02</h2>
         <img src="Rimuruu.gif" alt="Rimuru" height="144" width="144" />
         <br /><br />
-        <a href="#portfolio" class="btn">Get in Touch</a>
+        <a href="#video" class="btn">Get in Touch</a>
       </div>
     </section>
 
@@ -190,6 +191,53 @@
         </div>
       </div>
     </section>
+
+    <!-- Video Section -->
+    <section id="video">
+      <br />
+      <div class="all-episode">
+        <div class="episode-item">
+          <div class="episode-header">
+            <span class="episode-title">Video Preview: </span>
+            <img
+              alt="New"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBAa_80jTM32PIXgryc-x9bwP6RZPuvBdVHs49CpF_SXep6oVwstyMopK2V-lUGt4JmzG-KvDr8jWS7mOfclGwyTCbRoxEw_jHAnJzv4VDQNpAEUGo-dbswL-Jd8UFfTukuWSviS1vyOHC/s1600-rw/new-gif.gif"
+            />
+          </div>
+          <button class="toggle-button" onclick="toggleEpisode('episode-1')">
+            Show
+          </button>
+          <div id="episode-1" class="episode-content" style="display: none">
+            <div class="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/kddC4gi72UE?si=A8Xde20OhJ0Gdf8y"
+                scrolling="no"
+                frameborder="0"
+                width="640"
+                height="1000"
+                allowfullscreen="true"
+                webkitallowfullscreen="true"
+                mozallowfullscreen="true"
+                class="vids"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      function toggleEpisode(episodeId) {
+        const episodeContent = document.getElementById(episodeId);
+        const button = episodeContent.previousElementSibling;
+        if (episodeContent.style.display === "none") {
+          episodeContent.style.display = "block";
+          button.innerText = "Hide";
+        } else {
+          episodeContent.style.display = "none";
+          button.innerText = "Show";
+        }
+      }
+    </script>
 
     <!-- Footer -->
     <footer>
