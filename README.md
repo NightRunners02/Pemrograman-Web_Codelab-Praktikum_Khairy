@@ -7,6 +7,6 @@
 - Link Github Praktikum 1  - Modul 2: https://github.com/NightRunners02/Pemrograman-Web_Praktikum-1_Modul-2_Khairy
 - Preview Website Praktikum 1 - Modul 2: https://nightrunners02.github.io/Pemrograman-Web_Praktikum-1_Modul-2_Khairy/
 
-- Link Github Praktikum 2  - Modul 2: 
-- Preview Website Praktikum 2 - Modul 2: 
+- Link Github Praktikum 2  - Modul 2: https://github.com/NightRunners02/Pemrograman-Web_Praktikum-2_Modul-2_Khairy
+- Preview Website Praktikum 2 - Modul 2: https://nightrunners02.github.io/Pemrograman-Web_Praktikum-2_Modul-2_Khairy/
 
