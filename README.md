@@ -1,1 +1,4 @@
-- Preview Website Praktikum Modul 2: https://nightrunners02.github.io/Pemrograman-Web_Codelab-Praktikum_Khairy/
+- Praktikum Modul 1
+- Codelab Modul 1
+- Praktikum Modul 2
+- Codelab Modul 2
