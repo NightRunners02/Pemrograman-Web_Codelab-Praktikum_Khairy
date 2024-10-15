@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 10%;
+}
+
+table {
+  border: 1px solid;
+  width: 80%;
+  margin: 20px auto 20px 10%; /* left-aligned */
+  text-align: left;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: yellow;
+}
+
+td {
+  font-weight: bold;
+}
+
+td:nth-child(1) {
+  background-color: cyan;
+}
+
+td:nth-child(2) {
+  color: white;
+  background-color: black;
+}
+td:nth-child(3) {
+  background-color: pink;
+}
+
+td:hover {
+  background-color: rgb(221, 2, 2);
+}
