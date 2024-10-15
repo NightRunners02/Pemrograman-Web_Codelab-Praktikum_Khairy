@@ -1,5 +1,7 @@
 - Link Github Codelab 1 - Modul 1: https://github.com/NightRunners02/Pemrograman-Web_Jadwal-Kuliah_Codelab1_Khairy
 - Preview Website Codelab 1 - Modul 1 : https://nightrunners02.github.io/Pemrograman-Web_Jadwal-Kuliah_Codelab1_Khairy/
+- Link Codelab 2 - Modul 1 (Figma): https://www.figma.com/design/hUVSrlWUOGtXS5PXGYHMfD/Pemrograman-Web?node-id=0-1&node-type=canvas&t=SuFlV5LyaFHWQhFL-0
 ---
+- Link Praktikum 1 - Modul 1 (Figma): https://www.figma.com/design/hUVSrlWUOGtXS5PXGYHMfD/Pemrograman-Web?node-id=23-2&node-type=canvas&t=qtxLHcVTDSfNk2L2-0
 - Link Github Praktikum 2  - Modul 1: https://github.com/NightRunners02/Pemrograman-Web_Praktikum-2_Modul-1_Khairy
 - Preview Website Praktikum 2 - Modul 1: https://nightrunners02.github.io/Pemrograman-Web_Praktikum-2_Modul-1_Khairy/
