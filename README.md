@@ -1,1 +1,1 @@
-- Preview Website Praktikum Modul 1: https://nightrunners02.github.io/Pemrograman-Web_Praktikum2_Khairy/
+- Preview Website Praktikum Modul 1: https://nightrunners02.github.io/Pemrograman-Web_Codelab-Praktikum_Khairy/
