@@ -5,6 +5,7 @@
 ---
 # Modul 2
 - Codelab 1 - Modul 2
+- Codelab 2 - Modul 2
 - Praktikum 1 - Modul 2
 - Praktikum 2 - Modul 2
 ---
