@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
+    background-image: url('purple-aesthetic-rain.gif');
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +10,8 @@ body {
 }
 
 .container {
-    background-color: rgb(0, 251, 255);
+    background-color: #2a0a51;
+    color: #fff;
     padding: 80px;
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
@@ -44,7 +47,6 @@ button {
 button:first-child {
     background-color: #28a745;
     color: white;
-    
 }
 
 button:last-child {
